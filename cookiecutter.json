@@ -1,0 +1,17 @@
+{
+    "project_name": "netzeus-cli-plugin-your-command",
+    "package_name": "{{ cookiecutter.project_name|lower|replace(' ', '_')|replace('-', '_') }}",
+    "cli_name": "{{ cookiecutter.package_name }}",
+    "project_description": "NetZeus CLI Plugin automatically generated via cookiecutter",
+    "python_version": [
+        "3.8",
+        "3.9",
+        "3.10"
+    ],
+    "virtualenv": [
+        "virtualenv",
+        "python3"
+    ],
+    "author_name": "your_name",
+    "author_email": "your_email@example.com"
+}
