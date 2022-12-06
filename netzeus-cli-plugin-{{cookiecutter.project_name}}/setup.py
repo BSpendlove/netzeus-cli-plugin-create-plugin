@@ -4,7 +4,7 @@ with open("README.md", "r") as fs:
     long_description = fs.read()
 
 setup(
-    name="netzeus_cli_plugin_{{cookiecutter.project_name}}",
+    name="{{cookiecutter.project_name}}",
     version="0.0.1",
     description="{{cookiecutter.project_description}}",
     long_description=long_description,
@@ -16,7 +16,7 @@ setup(
     install_requires=["click", "netzeus-cli>=0.0.1"],
     entry_points="""
         [netzeus_cli.plugins]
-        {{cookiecutter.cli_name}}=netzeus_cli_plugin_{{cookiecutter.package_name}}.core:{{cookiecutter.package_name}}
+        {{cookiecutter.cli_name}}={{cookiecutter.package_name}}.core:cli
     """,
     include_package_data=True,
 )
