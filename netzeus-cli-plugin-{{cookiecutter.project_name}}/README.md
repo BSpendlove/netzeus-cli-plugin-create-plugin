@@ -6,3 +6,7 @@ This is a NetZeus CLI Plugin generated via cookiecutter. You can get started wit
 - SIMPLE_EXAMPLE_HERE
 - ADVANCED_EXAMPLE_HERE
 
+To test your command run:
+```
+netzeus-cli {{cookiecutter.cli_name}} --help
+```

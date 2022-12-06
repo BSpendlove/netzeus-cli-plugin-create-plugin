@@ -4,7 +4,7 @@ This is a simple Cookiecutter template you can use to generate the project struc
 
 ```
 pip install cookiecutter
-cookiecutter https://github.com/bspendlove/netzeus-cli-plugin-create-plugin
+cookiecutter https://github.com/BSpendlove/netzeus-cli-plugin-create-plugin
 ```
 
 The following options will appear to customize your NetZeus CLI Plugin:
