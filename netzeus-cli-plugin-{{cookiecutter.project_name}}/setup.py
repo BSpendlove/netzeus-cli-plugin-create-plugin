@@ -18,5 +18,4 @@ setup(
         [netzeus_cli.plugins]
         {{cookiecutter.cli_name}}={{cookiecutter.package_name}}.core:cli
     """,
-    include_package_data=True,
 )
